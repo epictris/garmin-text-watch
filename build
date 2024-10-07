@@ -1,1 +1,4 @@
-monkeyc -d venu3 -f app.jungle -o text_watch.prg -y ~/.Garmin/ConnectIQ/developer.der
+source .env
+mkdir -p export
+monkeyc -d venu3 -f app.jungle -o export/text_watch.prg -y ~/.Garmin/ConnectIQ/developer.der
+
