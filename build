@@ -1,0 +1,1 @@
+monkeyc -d venu3 -f app.jungle -o text_watch.prg -y ~/.Garmin/ConnectIQ/developer.der
